@@ -1,3 +1,5 @@
+--docker commands
+
 docker run postgres:9.6
 
 docker ps	
