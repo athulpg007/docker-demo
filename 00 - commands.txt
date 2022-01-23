@@ -1,4 +1,4 @@
---docker commands
+--docker commands from session
 
 docker run postgres:9.6
 
