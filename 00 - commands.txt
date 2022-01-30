@@ -40,3 +40,7 @@ docker run -p 8081:8081 -d\
             mongo-express 
 
 docker build -t my-app:1.0 .
+
+docker tag my-app:1.0 868430551625.dkr.ecr.us-east-2.amazonaws.com/my-app:1.0
+
+docker push 868430551625.dkr.ecr.us-east-2.amazonaws.com/my-app:1.0
